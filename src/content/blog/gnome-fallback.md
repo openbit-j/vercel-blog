@@ -7,12 +7,8 @@ featured: true
 draft: false
 tags:
   - Linux
-  - GNOME
-  - Desktop
-description: 详细介绍如何在现代发行版中配置和使用 GNOME Fallback 经典桌面模式。
+description: 详细介绍如何配置 GNOME Fallback。
 ---
-
-# 这里是你原本的文章正文
 
 > **概要部分**
 > **GNOME Flashback** 是现代 GNOME 3/4 时代中对“经典交互”的官方守护。它不是简单的复古主题，而是一个完整的会话（Session），旨在为那些不习惯 GNOME Shell “活动概览”逻辑、且对硬件资源（ CPU/GPU 负载）较为敏感的用户提供一个基于 GTK+ 最新技术的传统桌面方案。在 Linux 生态中，它是确保 GNOME 核心应用在旧式工作流中完美运行的官方桥梁。

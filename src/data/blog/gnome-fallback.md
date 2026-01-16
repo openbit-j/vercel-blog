@@ -1,5 +1,4 @@
 ---
-title: GNOME Fallback 模式配置指南
 author: openbit-j
 datetime: 2026-01-17T13:00:00Z
 slug: gnome-fallback-setup

@@ -1,6 +1,6 @@
 ---
 author: openbit-j
-pubDatetime: 2026-01-17T09:00:00Z
+pubDatetime: 2026-01-16T09:00:00Z
 title: GNOME Fallback
 postSlug: gnome-test
 featured: true

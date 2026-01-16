@@ -7,7 +7,8 @@ featured: true
 draft: false
 tags:
   - Linux
+  - GNOME
 description: 详细介绍如何在现代发行版中配置和使用 GNOME Fallback 模式。
 ---
 
-测试内容
+# 你的正文内容从这里开始...

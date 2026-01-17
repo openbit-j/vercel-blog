@@ -1,13 +1,13 @@
 ---
-author: openbit-j
+author: openbit
 pubDatetime: 2026-01-16T09:00:00Z
-title: GNOME Fallback
-postSlug: gnome-test
+title: GNOME Flashback
+postSlug: GNOME Flashback Desktop
 featured: true
 draft: false
 tags:
   - Linux
-description: Test
+description: GNOME Flashback：传统 GNOME 体验的现代延续
 ---
 
 
@@ -117,5 +117,3 @@ sudo pacman -S gnome-tweaks
 * *Summary: Real user experiences and customization screenshots.*
 
 
-
-如果你在 Arch Linux 的安装过程中遇到了具体的依赖错误（比如 `metacity` 无法启动），请告诉我，我可以为你提供更具体的排障命令。你想继续了解如何给 Flashback 配置经典的 Compiz 特效吗？

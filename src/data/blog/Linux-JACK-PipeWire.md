@@ -1,12 +1,13 @@
 ---
-author: openbit-j
-pubDatetime: 2026-01-17T09:00:00Z
+author: openbit
+pubDatetime: 2026-01-16T08:00:00Z
 title: Linux 上正确安装和配置 JACK
 postSlug: Linux-Audio
 featured: true
 draft: false
 tags:
   - Linux
+  - Ubuntu
 description: Ubuntu Studio 音频软件包
 ---
 

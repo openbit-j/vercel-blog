@@ -1,5 +1,5 @@
 ---
-author: openbit-j
+author: openbit
 pubDatetime: 2024-01-17T09:00:00Z
 title: Hello World
 postSlug: hello-world
@@ -10,3 +10,5 @@ tags:
 description: testing
 ---
 This is a test post.
+
+- 这是一个测试文章！

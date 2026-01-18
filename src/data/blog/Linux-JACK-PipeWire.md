@@ -7,11 +7,10 @@ featured: true
 draft: false
 tags:
   - Linux
-  - Ubuntu
+  - Ubunt
+  - JACK
 description: Ubuntu Studio 音频软件包
 ---
-
-
 
 
 ## 四步安装和配置 JACK（适用于基于 Debian/Ubuntu 的系统）
@@ -22,9 +21,7 @@ description: Ubuntu Studio 音频软件包
 
 在终端中执行以下命令：
 
-Bash
-
-```
+```Bash
 sudo apt update
 ```
 
@@ -36,9 +33,7 @@ sudo apt update
 
 同时安装 **JACK (jackd2)**、**图形用户界面 (qjackctl)** 以及最重要的 **PipeWire JACK 集成 (pipewire-jack)**。
 
-Bash
-
-```
+```Bash
 sudo apt install jackd2 qjackctl pipewire-jack
 ```
 
@@ -48,9 +43,7 @@ sudo apt install jackd2 qjackctl pipewire-jack
 
 此时，如果你直接打开 QJackCtl 并点击“启动”，它仍然会看不到任何设备。但如果你通过 PipeWire 运行它：
 
-Bash
-
-```
+```Bash
 pw-jack qjackctl
 ```
 
@@ -66,9 +59,7 @@ pw-jack qjackctl
 
 使用 **`sudo mv`** 命令来重命名（本质上就是移动到一个不同的名称）：
 
-Bash
-
-```
+```Bash
 sudo mv /usr/lib/libjack.so.0 /usr/lib/libjack.so.0.bak
 ```
 
@@ -84,9 +75,7 @@ PipeWire 的 JACK 库位于 `/usr/lib/pipewire-0.3/jack/libjack.so`。
 
 使用 **`sudo ln -s`** 命令创建软链接：
 
-Bash
-
-```
+```Bash
 sudo ln -s /usr/lib/pipewire-0.3/jack/libjack.so /usr/lib/libjack.so.0
 ```
 
@@ -111,9 +100,7 @@ sudo ln -s /usr/lib/pipewire-0.3/jack/libjack.so /usr/lib/libjack.so.0
 
 例如，你可以将所有需要的 JACK 应用程序一次性安装：
 
-Bash
-
-```
+```Bash
 sudo apt install jackd2 qjackctl pipewire-jack jack-mixer jack-keyboard zam-mu1
 ```
 

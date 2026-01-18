@@ -1,6 +1,6 @@
 ---
 author: openbit
-pubDatetime: 2026-01-18T13:20:00Z
+pubDatetime: 2026-01-17T13:20:00Z
 title: Niri 配置指南：打造现代 Wayland 桌面体验
 postSlug: niri-wayland-setup-guide
 featured: true

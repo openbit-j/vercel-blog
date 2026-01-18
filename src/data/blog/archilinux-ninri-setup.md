@@ -1,7 +1,7 @@
 ---
 author: openbit
 pubDatetime: 2026-01-17T13:20:00Z
-title: Niri 配置指南：现代 Wayland 平铺窗口管理器的桌面体验
+title: Niri 安装及配置指南
 postSlug: niri-wayland-setup-guide
 featured: true
 draft: false
@@ -10,7 +10,7 @@ tags:
   - ArchLinux
   - Niri
   - Wayland
-description: 从 yay 安装到 Niri 显示器、壁纸及中文化环境的完整配置教程。
+description: 现代 Wayland 平铺窗口管理器的桌面体验，从 yay 安装到 Niri 显示器、壁纸及中文化环境的完整配置教程。
 ---
 
 

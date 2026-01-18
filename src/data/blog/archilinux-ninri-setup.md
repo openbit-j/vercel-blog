@@ -88,7 +88,7 @@ wget https://gitee.com/openbit/notes/blob/master/wallpapers/pexels-photo-1210672
 
 编辑`niri`配置文件
 ```bash
-vim ~/.config.niri/config.kdl
+vim ~/.config/niri/config.kdl
 ```
 1.  **设置工作区透明度 (在 `layout` 块内部):**
 ```bash

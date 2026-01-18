@@ -10,7 +10,7 @@ tags:
   - ArchLinux
   - Niri
   - Wayland
-description: 现代 Wayland 平铺窗口管理器的桌面体验，从 yay 安装到 Niri 显示器、壁纸及中文化环境的完整配置教程。
+description: 现代 Wayland 平铺窗口管理器的桌面体验，在 arch Linux上 从 yay 安装到 Niri 显示器、壁纸及中文化环境的完整配置教程。
 ---
 
 

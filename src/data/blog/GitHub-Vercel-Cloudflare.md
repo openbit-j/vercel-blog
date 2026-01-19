@@ -116,12 +116,12 @@ description: 本指南记录了从 GitHub-Vercel-AstroPaper 部署到全站深�
 
    - Vercel 项目 → Settings → Domains → 输入你的域名（e.g. openbit.dpdns.org）→ Add
    - Vercel 会提示 DNS 记录：
-     - A 记录：`@` → `76.76.21.21`（Vercel IPv4）
-     - （可选）AAAA 记录：`@` → `2606:50c0:8000::216` 等（IPv6）
+     - 类型：`A` 名称：`@` 内容： `76.76.21.21`（Vercel 给你分配的 IPv4）
+     - 类型：`TXT` 名称：`_vercel` 内容：`vc-domain-verify=XXXXX`（你实际的值）
 
 3. **Cloudflare DNS 配置防坑**
 
-   - 添加上述 A/AAAA 记录
+   - 添加上述 A/TXT 记录
    - **关键**：初始验证阶段把 Proxy status 设为 **灰云（DNS Only）**（关闭橙云代理）
    - Vercel 显示 “Valid Configuration” 和 SSL “Active” 后，再考虑开启橙云（开启后可加速，但有时会干扰 Vercel 的边缘路由）
 

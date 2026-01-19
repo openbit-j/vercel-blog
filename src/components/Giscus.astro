@@ -14,34 +14,8 @@
   data-reactions-enabled="1"
   data-emit-metadata="0"
   data-input-position="bottom"
-  data-theme="preferred_color_scheme"
+  data-theme="light"
   data-lang="zh-CN"
   crossorigin="anonymous"
   async
 ></script>
-
-<script is:inline>
-  function syncGiscusTheme() {
-    const isDark = document.documentElement.classList.contains('dark');
-    // 推荐使用 'dark_high_contrast'（对比更高，不那么黑）
-    // 或 'dark'（纯黑），'dark_dimmed'（柔和暗）
-    const theme = isDark ? 'dark_high_contrast' : 'light';
-    const iframe = document.querySelector('iframe.giscus-frame');
-    if (iframe && iframe.contentWindow) {
-      iframe.contentWindow.postMessage(
-        { giscus: { setConfig: { theme } } },
-        'https://giscus.app'
-      );
-    }
-  }
-
-  // 立即同步 + 监听切换
-  syncGiscusTheme();
-  document.addEventListener('themechange', syncGiscusTheme);
-
-  // 额外：监听 html class 变化（防事件丢失）
-  new MutationObserver(syncGiscusTheme).observe(document.documentElement, {
-    attributes: true,
-    attributeFilter: ['class']
-  });
-</script>

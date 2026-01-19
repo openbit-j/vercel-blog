@@ -1,0 +1,39 @@
+---
+// src/components/Giscus.astro
+
+---
+
+<div class="giscus mt-12 border-t border-skin-line pt-8"></div>
+
+<script is:inline
+  src="https://giscus.app/client.js"
+  data-repo="openbit-j/vercel-blog"
+  data-repo-id="R_kgDOQ7Kgeg"
+  data-category="Blog Comments"
+  data-category-id="DIC_kwDOQ7Kges4C1Ju_"
+  data-mapping="pathname"
+  data-strict="0"  <!-- 建议用 0，更稳 -->
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="bottom"
+  data-theme="preferred_color_scheme"
+  data-lang="zh-CN"
+  crossorigin="anonymous"
+  async
+></script>
+
+<script is:inline>
+  function syncGiscusTheme() {
+    const isDark = document.documentElement.classList.contains('dark');
+    const theme = isDark ? 'dark_dimmed' : 'light';
+    const iframe = document.querySelector('iframe.giscus-frame');
+    if (iframe) {
+      iframe.contentWindow?.postMessage(
+        { giscus: { setConfig: { theme } } },
+        'https://giscus.app'
+      );
+    }
+  }
+  syncGiscusTheme();
+  document.addEventListener('themechange', syncGiscusTheme);
+</script>

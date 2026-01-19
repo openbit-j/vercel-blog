@@ -10,7 +10,7 @@ tags:
   - Astro
   - Vercel
   - Cloudflare
-description: 本指南记录了从 GitHub-Vercel-AstroPaper 部署到全站深度中文化的完整流程，旨在为使用 **vercel** 部署轻量博客，并使用 AstroPaper 模板，提供一份零成本、极简、准确且易于执行的部署指南。
+description: 本指南记录了从 GitHub-Vercel-AstroPaper 部署到全站深度中文化的完整流程，旨在为使用 vercel 部署轻量博客，并使用 AstroPaper 模板，提供一份零成本、极简、准确且易于执行的部署指南。
 ---
 
 

@@ -117,7 +117,7 @@ description: 本指南记录了从 GitHub-Vercel-AstroPaper 部署到全站深�
    - Vercel 项目 → Settings → Domains → 输入你的域名（e.g. openbit.dpdns.org）→ Add
    - Vercel 会提示 DNS 记录：
 
-| **类型 (Type)** | **名称 (Name)** | **内容 (Content / Value)** | **代理状态 (Proxy Status)** | **备注**       |
+| **类型 (Type)** | **名称 (Name)** | **内容 (Content)** | **代理状态 (Proxy Status)** | **备注**       |
 | ------------- | ------------- | ------------------------ | ----------------------- | ------------ |
 | **A**         | `@`           | `76.76.21.21`            | **DNS Only (灰色云朵)**     | 指向 Vercel 节点 |
 | **TXT**       | `_vercel`     | `vc-domain-verify=XXXXX` | **DNS Only**                 | 域名所有权验证      |

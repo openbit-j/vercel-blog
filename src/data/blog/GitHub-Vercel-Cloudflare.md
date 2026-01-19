@@ -18,7 +18,7 @@ description: 本指南记录了从 GitHub-Vercel-AstroPaper 部署到全站深�
 
 这是官方和 AstroPaper 作者强烈推荐的方式（2026 年最新 v5.5.1 版本依然如此），它能给你一个**零历史污染**的干净起点，后续想拉取上游更新也简单（加 remote 后 pull 就行）。
 
-### 第一阶段：部署（本地 + GitHub + Vercel）
+## 第一阶段：部署（本地 + GitHub + Vercel）
 
 1. **在本地创建一个新项目（用 pnpm 或 npm，根据你习惯）**  
    AstroPaper README 首推 pnpm（更快、更省空间），但 npm 也完全 OK。

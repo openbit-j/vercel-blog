@@ -51,7 +51,8 @@ description: 本指南记录了从 GitHub-Vercel-AstroPaper 部署到全站深�
 
 3. **初始化 Git 并推送到 GitHub**
 
-   先在 GitHub 创建**空仓库**（不要勾选 README、.gitignore、license）。
+   - 先在 GitHub 创建**空仓库**（不要勾选 README、.gitignore、license）。
+   - 在本地，使用终端命令，初始化并提交项目：
 
    ```bash
    git init

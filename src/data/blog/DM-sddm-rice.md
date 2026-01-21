@@ -188,7 +188,7 @@ sudo systemctl restart sddm
 3. **版本控制**：将自定义主题配置加入 Git
 4. **性能监控**：观察 SDDM 内存占用
 
-![截屏](https://gitee.com/openbit/notes/tree/master/preview/屏幕截图2026-01-03-130534.png)
+![截屏](https://gitee.com/openbit/notes/raw/master/preview/屏幕截图2026-01-03-130534.png)
 
 ## 九、主题开发资源
 - 官方文档：https://github.com/sddm/sddm
@@ -212,7 +212,7 @@ sudo systemctl restart sddm
 
 #### 壁纸
 
-![壁纸](https://gitee.com/openbit/wsl-sway/raw/master/background/gh01.png)
+![壁纸](https://gitee.com/openbit/notes/raw/master/wallpapers/gh01.png)
 
 
 

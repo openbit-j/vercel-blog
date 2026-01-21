@@ -2,7 +2,7 @@
 author: openbit
 pubDatetime: 2026-01-19T09:00:00Z
 title: SDDM 登录管理器美化完全指南
-postSlug: 与现代桌面环境完美兼容的 Display Manager
+postSlug: sugar-candy 与现代桌面环境完美兼容的 Display Manager
 featured: true
 draft: false
 tags:

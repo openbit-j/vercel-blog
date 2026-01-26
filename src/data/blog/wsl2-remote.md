@@ -1,7 +1,7 @@
 ---
 author: openbit
 pubDatetime: 2026-01-26T01:20:00Z
-title: 使用 WSL2 远程开发的方案探讨
+title: 使用 WSL2 远程开发方案的探讨
 postSlug: wsl-remote-setup-guide
 featured: true
 draft: false

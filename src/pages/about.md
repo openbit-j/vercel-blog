@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-本博客采用了 AstroPaper，是 Sat Naing 的作品，下面翻译了他英文的简介，喜欢的朋友去[他的GitHub](https://github.com/satnaing/astro-paper)给点个⭐️：
+本博客采用了 AstroPaper，是 Sat Naing 的作品，喜欢的朋友给[他的GitHub](https://github.com/satnaing/astro-paper)给点个⭐️，原英文的简介翻译如下：
 
 AstroPaper 是一个极简、可访问性强且对 SEO 友好的博客主题，使用 [Astro](https://astro.build/) 和 [Tailwind CSS](https://tailwindcss.com/) 构建。
 

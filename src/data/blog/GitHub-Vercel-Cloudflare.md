@@ -14,7 +14,7 @@ description: 本指南记录了从 GitHub-Vercel-AstroPaper 部署到全站深�
 ---
 
 
-> AstroPaper 博客在 Vercel 上的部署，**最合适、最干净、长期维护最容易的方法**：直接使用 `create astro` 命令以模板方式创建项目。
+> 在 Vercel 上部署 AstroPaper 博客时，最推荐的简洁、便于长期维护且易于操作的方式是：使用 `create astro` 命令，基于官方模板直接创建项目。
 
 #### AstroPaper + Vercel 部署轻量博客（全站深度中文化指南）
 
